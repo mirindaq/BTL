@@ -96,3 +96,12 @@ footer {
 .list-payment .list-group-item {
   padding: 20px;
 }
+
+.form-control {
+  border-radius: 0px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid black
+}
