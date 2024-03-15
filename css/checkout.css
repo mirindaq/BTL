@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Jost";
+}
+
+footer {
+  background-image: url(../img/footer-img.svg);
+}
+
+.breadcrumb {
+  color: #838583;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #838583;
+}
+
+.form-control {
+  padding: 13px 20px;
+}
+
+.price {
+  font-weight: 500;
+}
+
+.list-group .list-group-item {
+  font-size: 15px;
+}
+
+.list-group .list-group-item a{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.item-list .list-group-item {
+  border: 0px;
+  padding: 32px 0px;
+  border-bottom: 1px solid #E5E5E5 !important;
+}
+
+.item-list li:first-child {
+  padding-top: 32px;
+}
+
+.item-list li:last-child {
+  border: 0px !important;
+}
+
+.price-list {
+  background-color: #F5F5F5;
+}
+
+.price-list .list-group .list-group-item {
+  border-bottom: 1px solid #E5E5E5 !important;
+}
+
+.price-list .list-group li:last-child {
+ border: 0px !important;
+ padding-bottom: 0px !important;
+}
+
+.shipping-details table td {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.shipping-details label {
+  margin-left: 10px;
+}
+
+.custon-radio{
+  background-color: #E5E5E5;
+}
+
+.custon-radio:checked  {
+  background-color: black;
+  border-color: black;
+}
+
+
+.form-check-input:checked {
+  background-color: #1f1f1f;
+  border-color: black;
+}
+
+.form-select {
+  padding: 13px 60px 13px 20px;
+}
+
+.list-payment {
+  border-radius: 0px;
+}
+
+.list-payment .list-group-item {
+  padding: 20px;
+}
