@@ -23,19 +23,19 @@
   border-top: 1px solid #E5E5E5 !important;
 }
 
-.list-group-item.active {
+.link-left .list-group-item.active {
   background-color: #FFFFFF;
   color: black !important;
   font-weight: 500;
 }
 
-.list-group-item {
+.link-left .list-group-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.list-group-item i {
+.link-left .list-group-item i {
   font-size: 11px;
 }
 

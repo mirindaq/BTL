@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVl2uUZzA6M7g8w8R" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/information.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <section class="py-3 bg-dark">
+      <div class="text-center text-white">
+        <span class="text-uppercase">⚡️ Happy Holiday Deals on Everything ⚡️</span>
+      </div>
+    </section>
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand d-none" href="#">Shopper</a>
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Docs</a>
+            </li>
+          </ul>
+          <div class="logo mx-8" href="#">Shopper</div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">United States
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-left" href="#">USD
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-left" href="#">EN
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link nav-pad" data-bs-toggle="offcanvas" href="#search"><i
+                  class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-pad" href="#"><i class="fa-regular fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-pad" href="#"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-pad" data-bs-toggle="offcanvas" href="#cart-modal">
+                <span id="cart" class="position-relative" data-cart="0">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <section class="mt-5 mb-5">
+    <article>
+      <div class="container">
+        <!--Breadcump-->
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb" style="font-size: 14px;">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item" aria-current="page">My account</li>
+          </ol>
+        </nav>
+      </div>
+    </article>
+
+    <article>
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-12 text-center">
+            <h3 class="mb-5" style="font-size: 32px;">My Account</h3>
+          </div>
+        </div>
+        <div class="row">
+          <!--Link left -->
+          <div class="col-12 col-md-3">
+            <div class="link-left">
+              <div class="list-group">
+                <a class="list-group-item list-group-item-action active" href="../html/orders.html">
+                  Orders
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <a class="list-group-item list-group-item-action" href="#">
+                  Wishlist
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <a class="list-group-item list-group-item-action"
+                  href="#">
+                  Personal Info
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <a class="list-group-item list-group-item-action" href="#">
+                  Addresses
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <a class="list-group-item list-group-item-action" href="#">
+                  Payment Methods
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <a class="list-group-item list-group-item-action" href="#">
+                  Logout
+                  <i class="fa-solid fa-angle-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Info -->
+          
+
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+
+
+  <!-- End Footer -->
+  <!-- <footer class="footer">
+    <div class="infor">
+      <div class="container">
+        <div class="row" style="margin-bottom: 80px;">
+          <div class="col-12 d-flex justify-content-center flex-column align-items-center">
+            <h1 class="mail">Wants style Ideas and Treats?</h1>
+            <div class="send-mail">
+              <input type="text" placeholder="Enter Email *">
+              <button>Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-24">
+            <h3 class="name">Shopper</h3>
+            <div class="social">
+              <span class="item"><i class="fa-brands fa-facebook-f"></i></span>
+              <span class="item"><i class="fa-brands fa-youtube"></i></span>
+              <span class="item"><i class="fa-brands fa-twitter"></i></span>
+              <span class="item"><i class="fa-brands fa-instagram"></i></span>
+              <span class="item"><i class="fa-brands fa-medium"></i></span>
+            </div>
+          </div>
+          <div class="col-24">
+            <h3 class="title">SUPPORT</h3>
+            <ul>
+              <li>Contact Us</li>
+              <li>FAQs</li>
+              <li>Size Guide</li>
+              <li>Shipping & Returns</li>
+            </ul>
+          </div>
+          <div class="col-24">
+            <h3 class="title">SHOP</h3>
+            <ul>
+              <li>Men's Shopping</li>
+              <li>Women's Shopping</li>
+              <li>Kid's Shopping</li>
+              <li>Discounts</li>
+            </ul>
+          </div>
+          <div class="col-24">
+            <h3 class="title">COMPANY</h3>
+            <ul>
+              <li>Our Story</li>
+              <li>Careers</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy & Cookie policy</li>
+            </ul>
+          </div>
+          <div class="col-24">
+            <h3 class="title">CONTACT</h3>
+            <ul>
+              <li>1-202-555-0105</li>
+              <li>1-202-555-0106</li>
+              <li>help@shopper.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="payment">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between">
+            <p>© 2019 All rights reserved. Designed by Unvab.</p>
+            <div class="list">
+              <span class="card-item"><img src="../img/card-1.svg" alt=""></span>
+              <span class="card-item"><img src="../img/card-2.svg" alt=""></span>
+              <span class="card-item"><img src="../img/card-3.svg" alt=""></span>
+              <span class="card-item"><img src="../img/card-4.svg" alt=""></span>
+              <span class="card-item"><img src="../img/card-5.svg" alt=""></span>
+              <span class="card-item"><img src="../img/card-6.svg" alt=""></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</html>
