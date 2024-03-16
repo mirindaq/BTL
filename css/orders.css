@@ -1,0 +1,89 @@
+.breadcrumb {
+  color: #838583;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #838583;
+}
+
+.link-left .list-group {
+  background-color: #F5F5F5;
+  border: 0px;
+}
+
+.link-left .list-group .list-group-item {
+  padding: 20px 0px;
+  border: 0px;
+  border-bottom: 1px solid #E5E5E5 !important;
+}
+
+.link-left .list-group a:first-child {
+  border-top: 1px solid #E5E5E5 !important;
+}
+
+.list-group-item.active {
+  background-color: #FFFFFF;
+  color: black !important;
+  font-weight: 500;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-group-item i {
+  font-size: 11px;
+}
+
+/* Orders */
+.orders-list .card-body {
+  padding: 20px !important;
+}
+
+.orders-list .card-footer {
+  padding: 20px 0px !important;
+}
+
+.orders-list .card-body .titleForm {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.orders-list .card-body .valueForm {
+  font-size: 15px;
+  font-weight: 500 !important;
+}
+
+.orders-list p{
+  margin: 0px;
+}
+
+.box-img {
+  background-color: #EEEEEE;
+  width: 60px !important;
+  height: 60px !important;
+  overflow: hidden;
+}
+
+.box-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-img p {
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.orders-list .row-button a {
+  padding: 14px 28px; 
+  border-radius: 0px;
+  font-size: 15px;
+  font-weight: 500;
+}
