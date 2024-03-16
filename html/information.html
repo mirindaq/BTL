@@ -121,7 +121,7 @@
           <div class="col-12 col-md-3">
             <div class="link-left">
               <div class="list-group">
-                <a class="list-group-item list-group-item-action active" href="../html/orders.html">
+                <a class="list-group-item list-group-item-action" href="../html/orders.html">
                   Orders
                   <i class="fa-solid fa-angle-right"></i>
                 </a>
@@ -129,8 +129,7 @@
                   Wishlist
                   <i class="fa-solid fa-angle-right"></i>
                 </a>
-                <a class="list-group-item list-group-item-action"
-                  href="#">
+                <a class="list-group-item list-group-item-action active" href="../html/information.html">
                   Personal Info
                   <i class="fa-solid fa-angle-right"></i>
                 </a>
@@ -150,10 +149,96 @@
             </div>
           </div>
           <!-- Info -->
-          
+          <div class="col-12 col-md-9 col-lg-8 offset-lg-1">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <div class="mb-4">
+                  <label for="fName" class="form-label">First Name *</label>
+                  <input type="text" class="form-control form-control-sm" id="fName" placeholder="First Name *">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="mb-4">
+                  <label for="fName" class="form-label">Last Name *</label>
+                  <input type="text" class="form-control form-control-sm" id="lName" placeholder="Last Name *">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="mb-4">
+                  <label for="fName" class="form-label">Email *</label>
+                  <input type="email" class="form-control form-control-sm" id="mail" placeholder="Email Address *">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="mb-4">
+                  <label for="cPass" class="form-label">Current Password *</label>
+                  <input type="password" class="form-control form-control-sm" id="town/city"
+                    placeholder="Current Password *">
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="mb-4">
+                  <label for="nPass" class="form-label">New Password *</label>
+                  <input type="password" class="form-control form-control-sm" id="New Password *"
+                    placeholder="ZIP / Postcode">
+                </div>             
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="form-group">
+                  <label class="form-label">Date of Birth</label>
+                  <div class="row">
+                    <div class="col">
+                      <label class="visually-hidden" for="accountDate">
+                        Date
+                      </label>
+                      <select class="form-select form-select-sm accountSelect" id="accountDate">
+                        <option>09</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option selected="">12</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <label class="visually-hidden" for="accountMonth">
+                        Month
+                      </label>
+                      <select class="form-select form-select-sm accountSelect" id="accountMonth">
+                        <option>01</option>
+                        <option selected="">02</option>
+                        <option>03</option>
+                      </select>
+                    </div>
+                    <div class="col">
+                      <label class="visually-hidden" for="accountYear">
+                        Year
+                      </label>
+                      <select class="form-select form-select-sm accountSelect" id="accountYear">
+                        <option>1990</option>
+                        <option selected="">1991</option>
+                        <option>1992</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="form-group">
+                  <label class="form-label">Gender</label>
+                  <div>
+                    <input class="btn-check" type="radio" name="gender" id="male" checked="">
+                    <label class="btn btn-sm btn-outline-border buttonAccount" for="male">Male</label>
+                    <input class="btn-check" type="radio" name="gender" id="female">
+                    <label class="btn btn-sm btn-outline-border buttonAccount" for="female">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-4">
+                <button class="btn btn-dark" style="padding: 14px 28px; border-radius: 0px;" type="submit">Save Changes</button>
+              </div>
+            </div>
 
+          </div>
         </div>
-      </div>
     </article>
 
   </section>

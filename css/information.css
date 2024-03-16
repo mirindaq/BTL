@@ -37,3 +37,35 @@
 .link-left .list-group-item i {
   font-size: 11px;
 }
+
+/* Form */
+.form-control {
+  padding: 13px 20px;
+}
+
+
+.form-control {
+  border-radius: 0px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid black
+}
+
+.accountSelect {
+  padding: 13px 60px 13px 20px;
+  border-radius: 0px;
+}
+
+.accountSelect:focus {
+  border : 1px solid black;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.buttonAccount {
+  border: 1px solid #E5E5E5;
+  padding: 13px 24px;
+  border-radius: 0px;
+}

@@ -77,16 +77,25 @@ footer {
 .custon-radio:checked  {
   background-color: black;
   border-color: black;
+  box-shadow: none;
 }
 
 
 .form-check-input:checked {
   background-color: #1f1f1f;
   border-color: black;
+  box-shadow: none;
 }
 
-.form-select {
+.checkoutSelect {
   padding: 13px 60px 13px 20px;
+  border-radius: 0px;
+}
+
+.checkoutSelect:focus {
+  border : 1px solid black;
+  box-shadow: none;
+  border-radius: 0px;
 }
 
 .list-payment {
